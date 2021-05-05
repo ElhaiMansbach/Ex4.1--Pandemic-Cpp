@@ -23,6 +23,5 @@ Player &FieldDoctor::treat(City c)
         num--;
         board.set_disease_level(c, num);
     }
-
     return *this;
 }
