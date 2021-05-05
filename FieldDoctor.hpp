@@ -12,5 +12,4 @@ namespace pandemic
         FieldDoctor(Board &b, City c) : Player(b, c, "FieldDoctor") {}
         Player &treat(City c) override;
     };
-
 }
