@@ -14,5 +14,4 @@ namespace pandemic
         Dispatcher(Board &b, City c) : Player(b, c, "Dispatcher") {}
         Player &fly_direct(City c) override;
     };
-
 }
