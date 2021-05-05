@@ -12,5 +12,4 @@ namespace pandemic
         GeneSplicer(Board &b, City c) : Player(b, c, "GeneSplicer") {}
         Player &discover_cure(Color c) override;
     };
-
 }
